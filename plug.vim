@@ -1,3 +1,4 @@
+" FOR .vim/plugged Don't forget autoload, backup and colors.
 " vim-plug: Vim plugin manager
 " ============================
 "
