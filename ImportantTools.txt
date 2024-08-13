@@ -7,7 +7,7 @@ flameshot
 git
 htop
 kitty
-lynx
+lynx - if need be
 neofetch
 nitrogen
 okular
@@ -17,14 +17,15 @@ qemu-full
 ranger
 rofi
 spotify-edge
-steam
 tmux
 trash-cli
 udiskie
 unzip
 vesktop
-neovim
+vim
 weechat
 curl
 xamppp
 yay
+radare2
+clang
