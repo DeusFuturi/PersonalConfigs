@@ -187,14 +187,14 @@ bindsym 0xff61 exec --no-startup-id flameshot gui
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-        status_command i3status --config ~/Configs/i3status.conf
+        status_command i3status --config ~/.config/i3status/config
 	position top
 
 	colors {
-        	background #282C34
-       		statusline #ffffff
-        	separator #666666                            
-                	               #Border #BG     #text
+        	background #000000
+       		statusline #5539CC
+        	separator #ffffff                            
+                	              #Border #BG     #text
         	focused_workspace       #2fff24 #5865F2 #000000
         	active_workspace        #333333 #5f676a #ffffff
         	inactive_workspace      #5539CC #2fff24 #000000
@@ -204,12 +204,13 @@ bar {
 }
 
 # class                 border  backgr. text    indicator child_border
-client.focused          #5865F2 #285577 #ffffff #2e9ef4   #2fff24
-client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
-client.unfocused        #6667AB #222222 #888888 #292d2e   #5865F2
-client.urgent           #2f343a #900000 #ffffff #900000   #900000
-client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
+client.focused          #5a6ef5  #1a3f5f   #aaaaaa  #3fb0f9   #3ff23f
+client.focused_inactive #414345  #444950   #cccccc  #585e60   #3f4f6f
+client.unfocused        #7a68bb  #1e1e2e   #000000  #323340   #6852f2
+client.urgent           #ff0000  #900000   #ffffff  #ff0000   #ff0000
+client.placeholder      #333333  #1a1a1a   #3ff23f  #333333   #1a1a1a
 
 client.background       #ffffff
 exec_always nitrogen --restore
 exec --no-startup-id sleep 1 && picom
+[del@FNEX ~]$ 
