@@ -35,3 +35,5 @@ unimatrix
 cava
 mapscii
 pipes.sh
+bat - this is a better cat
+eza - for ls replacement
