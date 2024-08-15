@@ -5,7 +5,7 @@ clamav
 firefox
 flameshot
 git
-htop
+btop
 kitty
 lynx - if need be
 neofetch
@@ -37,3 +37,5 @@ mapscii
 pipes.sh
 bat - this is a better cat
 eza - for ls replacement
+dust - disk space analyser
+tldr - better man2
