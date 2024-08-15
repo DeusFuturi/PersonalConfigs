@@ -30,3 +30,8 @@ yay
 radare2
 clang
 lolcat
+cmatrix
+unimatrix
+cava
+mapscii
+pipes.sh
