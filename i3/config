@@ -4,7 +4,8 @@
 # Should you change your keyboard layout some time, delete
 # this file and re-run i3-config-wizard(1).
 #
-
+#gaps inner 4
+#gaps outer 1
 # i3 config file (v4)
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
@@ -213,4 +214,3 @@ client.placeholder      #333333  #1a1a1a   #3ff23f  #333333   #1a1a1a
 client.background       #ffffff
 exec_always nitrogen --restore
 exec --no-startup-id sleep 1 && picom
-[del@FNEX ~]$ 
