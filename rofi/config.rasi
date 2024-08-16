@@ -1,0 +1,41 @@
+ 1 configuration {                                                                                                                                                                            
+  2     modi: "drun,run,window";                                                                                                                                                               
+  3     font: "monospace 12";                                                                                                                                                                  
+  4     lines: 10;                                                                                                                                                                             
+  5     columns: 1;                                                                                                                                                                            
+  6     opacity: 90;                                                                                                                                                                           
+  7     border: 0;                                                                                                                                                                             
+  8     padding: 20;                                                                                                                                                                           
+  9     location: 0;                                                                                                                                                                           
+ 10     width: 50;                                                                                                                                                                             
+ 11     hide-scrollbar: true;                                                                                                                                                                  
+ 12     fullscreen: false;                                                                                                                                                                     
+ 13 }                                                                                                                                                                                          
+ 14                                                                                                                                                                                            
+ 15 * {                                                                                                                                                                                        
+ 16     background: #000000;    /* Black Background */                                                                                                                                         
+ 17     foreground: #9370DB;    /* Purple Text */                                                                                                                                              
+ 18     bordercolor: #4B0082;   /* Dark Purple Border */                                                                                                                                       
+ 19     selected-background: #4B0082;  /* Dark Purple for Highlighted Background */                                                                                                            
+ 20     selected-foreground: #FFD700;  /* Gold Text for Selected Items */                                                                                                                      
+ 21     alternate-background: #FFD700; /* Dark Grey for Alternate Items */                                                                                                                     
+ 22 }                                                                                                                                                                                          
+ 23                                                                                                                                                                                            
+ 24 window {                                                                                                                                                                                   
+ 25     width: 30%;                                                                                                                                                                            
+ 26 }                                                                                                                                                                                          
+ 27                                                                                                                                                                                            
+ 28 listview {                                                                                                                                                                                 
+ 29     lines: 10;                                                                                                                                                                             
+ 30     fixed-height: false;                                                                                                                                                                   
+ 31 }                                                                                                                                                                                          
+ 32                                                                                                                                                                                            
+ 33 element {                                                                                                                                                                                  
+ 34     padding: 5px;                                                                                                                                                                          
+ 35     border-radius: 4px;                                                                                                                                                                    
+ 36 }                                                                                                                                                                                          
+ 37                                                                                                                                                                                            
+ 38 element selected {                                                                                                                                                                         
+ 39     background-color: @selected-background;                                                                                                                                                
+ 40     foreground: @selected-foreground;                                                                                                                                                      
+ 41 }  
