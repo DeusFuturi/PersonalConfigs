@@ -1,38 +1,31 @@
-/**
- * @name Dark Neon
- * @author Bates
- * @version 2.0.1
- * @source https://gitlab.com/B4T3S/bates-discord-theme
- * @website https://B4T3S.gitlab.io/bates-discord-theme/
- * @donate https://www.paypal.com/paypalme/floriancegledi
- * @patreon https://patreon.com/bates
- * @description A dark theme with bright neon-y colors, now with more options!
- * @authorId 137259132305539072
- * @invite 6qd3SkP6Ch
-*/
-
-@import url('https://B4T3S.github.io/DiscordDarkNeon/mainRewrite.css');
+@import url('https://B4T3S.github.io/Fallout4TerminalTheme/mainRewrite.css');
 /* ^ This is the main Import ^ DO NOT TOUCH. Without this, the theme won't load!!! */
 
-@import url('https://B4T3S.github.io/DiscordDarkNeon/css/hideUsers.css');
-/* This import adds the collapsible user-list. Remove it/comment it out to disable that featur>
+@import url('https://B4T3S.github.io/Fallout4TerminalTheme/css/crtEffect.css');
+/* ^ This is the CRT effect. If you don't like it, remove or uncomment this line! ^ */
 
 /* CUSTOMIZE COLORS IN HERE! */
 :root {
-  --rgb-highlight: 4, 217, 255; /* The main highlight color */
-  --rgb-background: 0, 0, 0; /* The main background color */
-  --rgb-text: 197, 200, 198; /* The main text color */
-  --rgb-close-button: 212, 18, 39; /* The main "close this" or "deny" color */
-  --rgb-online-color: 57, 255, 20; /* The color used in the "online" user status symbol */
-  --rgb-afk-color: 255, 255, 51; /* The color used in the "idle" user status symbol */
-  --rgb-dnd-color: 255, 0, 0; /* The color used in the "do not disturb" user status symbol */
-  --rgb-streaming-color: 188, 19, 254; /* The color used in the "streaming X" user status symb>
+  --rgb-highlight: 0, 191, 255; /* Neon Blue #00BFFF */
+  --rgb-background: 0, 0, 0; /* Black #000000 */
+  --rgb-text: 0, 255, 255; /* Neon Cyan #00FFFF */
+  --rgb-close-button: 255, 20, 147; /* Neon Pink #FF1493 */
+  --rgb-online-color: 138, 43, 226; /* Purple #8A2BE2 */
+  --rgb-afk-color: 186, 85, 211; /* Light Purple #BA55D3 */
+  --rgb-dnd-color: 148, 0, 211; /* Dark Purple #9400D3 */
+  --rgb-streaming-color: 186, 85, 211; /* Light Purple #BA55D3 */
 
-  --transition-time: .3s; /* How fast animations added by the theme happen. Default is 0.3 sec>
+  --transition-time: .3s; /* How fast animations added by the theme happen. Default is 0.3s */
 
-  --background-image: unset; /* To add an image, replace unset with url(https://www.YOUR-URL-H>
+  --background-image: unset; /* To add an image, replace unset with url(https://www.YOUR_IMAGE_URL_HERE) */
   --background-position: center; /* Positions the background image */
   --background-size: cover; /* Scales the background image */
-  --background-blur: 5px; /* Blurs the image which helps with readability of text infront of i>
+  --background-blur: 5px; /* Blurs the image which usually helps with readability of text */
   --background-brightness: 100%; /* Changes the background images brightness */
+
+  --show-original-title: 0; /* Whether you want to show Discord's original title (0 means no, 1 means yes) */
+  --show-custom-title: 1; /* Whether you want to show a custom title (0 means no, 1 means yes) */
+  --custom-title-text: "ROBCO Industries (tm)"; /* The custom text you want to display */
+  --custom-title-font-size: 16px; /* The size in pixels of the custom title text */
+  --custom-title-font-weight: bold;
 }
