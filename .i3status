@@ -20,6 +20,7 @@ order += "disk /mnt/Secondary"
 order += "load"
 order += "memory"
 order += "tztime local"
+order += "space"
 
 volume master {
     format = "♪ Volume: %volume"
@@ -61,7 +62,7 @@ load {
 }
 
 memory {
-        format = "%used Mem | %available Mem"
+        format = "%used Mem Used | %available Mem Left"
         threshold_degraded = "1G"
         format_degraded = "MEMORY < %available"
 }
