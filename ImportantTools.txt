@@ -32,3 +32,4 @@ eza - for ls replacement
 dust - disk space analyser
 tldr - better man2
 emacs
+zsh
