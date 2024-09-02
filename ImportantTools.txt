@@ -20,22 +20,15 @@ spotify-edge
 tmux
 trash-cli
 udiskie
-unzip
 vesktop
 vim
-weechat
 curl
-xamppp
 yay
-radare2
-clang
-lolcat
-cmatrix
-unimatrix
+radare2 tools suite
+clang or (cc on bsd)
 cava
-mapscii
-pipes.sh
 bat - this is a better cat
 eza - for ls replacement
 dust - disk space analyser
 tldr - better man2
+emacs
